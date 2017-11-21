@@ -7,17 +7,16 @@
     tools:context="com.example.ofk14mbi.ovning1.MainActivity"
     android:background="@color/colorPrimary"
     >
-    
+
     <fragment
         android:id="@+id/main_fragment"
-        android:class="com.example.ofk14mbi.ovning1.MainFragment"
+        class="com.example.ofk14mbi.ovning1.MainFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         tools:layout="@layout/fragment_main"
-        >
+        />
 
-    </fragment>
-    
+
 
 </android.support.v7.widget.ContentFrameLayout>
